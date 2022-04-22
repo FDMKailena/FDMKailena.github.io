@@ -1,0 +1,77 @@
+body{
+	margin:0;
+	padding:0;
+  background-color: #000;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 36px;
+
+
+}
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: tan;
+  max-width:1200px;
+  width:100%;
+  display: inline-block;
+  text-align: left;
+  height:99vh;
+	opacity: .9;
+}
+
+.navbar{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	z-index: 100;
+
+}
+
+.logo{
+max-height: 75px;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.tile{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 745px;
+}
+
+
+.tile1{
+	background-image: url("img/top veg tile.jpeg");
+
+}
+
+.tile2{
+	background-image: url("img/eggs tile.jpeg");
+
+}
+
+.tile3{
+	background-image: url("img/gnocchi tile.jpeg");
+}
+
+.tile4{
+	background-image: url("img/food tile.jpeg");
+
+}
+
+.tile5{
+	background-image: url("img/together tile.jpeg");
+
+}
+
+.tile6{
+	background-image: url("img/clean plate tile.jpeg");
+}
