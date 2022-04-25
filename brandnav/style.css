@@ -3,7 +3,7 @@ body{
   padding: 0;
   background-color: #d06645;
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
+  font-size: 36px;
   font-weight: 500;
 }
 
@@ -15,35 +15,89 @@ body{
   margin-top: 10px;
   background-color: #999;
   max-width:1200px;
-  width: 100%;
+  width: 75%;
   height: 100%;
   display: inline-block;
   text-align: left;
   height: 98vh;
 }
 
+.logo{
+  max-width: 100px;
+  text-align: left;
+}
+
+.logoimg{
+  width: 75px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.navbar{
+  flex-grow: 1;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+a:hover{
+  color: tan;
+}
+
 #menu img{
-  width: 80px;
+  width: 50px;
   cursor: pointer;
 }
 
-menu{
-  display: block;
+#menu{
+  display: none;
 }
 
+  @media screen and (max-width: 850px){
+body{
+  background-color: white;
+}
+.page{
+  max-width: 480px;
+}
+#menu{
+    display: inline-block;
+  }
+.navbar{display: none;
+  }
+
+  @media screen and (min-width:600px) and (max-width: 900px){
+body{
+  background-color: teal;
+}
+.page{
+  max-width: 800px;
+}
+  }
+
 #menuoverlay{
-  position: absolute;
+  position: relative;
   top: 0px;
   left: 0px;
-  background-color: teal
+  background-color: teal;
   width:100%;
   height: 98vh;
+  display: none;
 
   text-align: center;
 }
 
 .close{
-  position: absolute;
+  position: relative;
   top: 10px;
   right: 10px;
   font-size: 60px;

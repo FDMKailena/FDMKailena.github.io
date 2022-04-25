@@ -1,5 +1,6 @@
 function showmenu(){
-  document.getElementById('menuoverlay').style.display="block;"
+  document.getElementById('menuoverlay').style.display="block";
 }
 function hidemenu(){
-  document.getElementById('menuoverlay').style.display="none;"
+  document.getElementById('menuoverlay').style.display="none";
+}
