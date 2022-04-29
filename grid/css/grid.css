@@ -26,63 +26,63 @@
 
 .col-1 {
     width: 8.33%;
-    background: #fff;
+    background: rgba(2,237,222,.1);
   }
 
   .col-2 {
     width: 16.66%;
-    background: #f3f4f4;
+    background: rgba(2,237,222,.2);
   }
 
   .col-3 {
     width: 25%;
-    background: #eaecec;
+    background: rgba(2,237,222,.3);
   }
 
   .col-4 {
     width: 33.33%;
-    background: #dcdede;
+    background: rgba(2,237,222,.4);
   }
 
   .col-5 {
     width: 41.67%;
-    background: #d4d4d4;
+    background: rgba(2,237,222,.5);
   }
 
   .col-6 {
     width: 50%;
-    background: #ced3d3;
+    background: rgba(2,237,222,.55);
   }
 
 
   .col-7 {
     width: 58.33%;
-    background: #bdd5d3;
+    background: rgba(2,237,222,.65);
   }
 
   .col-8 {
     width: 66.67%;
-    background: #b0dad7;
+    background: rgba(2,237,222,.7);
   }
 
   .col-9 {
     width: 75%;
-    background: #a0dcd8;
+    background: rgba(2,237,222,.75);
   }
 
   .col-10 {
     width: 83.33%;
-    background: #7ddfd8;
+    background: rgba(2,237,222,.85);
   }
 
   .col-11 {
     width: 91.67%;
-    background: #4ce1d7;
+    background: rgba(2,237,222,.9);
   }
 
   .col-12 {
     width: 100%;
-    background: #01e4d5;
+    background: rgba(2,237,222,1);
   }
 
 /* This is clearfix, clearing content after each row*/
