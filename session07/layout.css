@@ -86,3 +86,13 @@ div [class^="side_bar"]:last-of-type {
     margin: 0px;
 
 }
+
+.col-4left img{
+ margin-left: 50px;
+ margin-top: 150px;
+ background-color: tan;
+}
+
+.col-4 img{
+ margin-top: 15px;
+}
