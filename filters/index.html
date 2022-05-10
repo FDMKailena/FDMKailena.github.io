@@ -8,6 +8,8 @@
 
       -webkit-filter: grayscale:(1);
       filter: grayscale(1);
+			-webkit-filter: saturate:(0);
+			 filter: saturate(0);
 
 
 
@@ -20,6 +22,7 @@
     .my_filter:hover{
 
       animation: 4s myfilteranimation forwards;
+			animation-timing-function: ease;
 
     }
 
@@ -29,6 +32,8 @@
      @keyframes myfilteranimation{
 
 	      100%{
+					-webkit-filter: grayscale:(0);
+		      filter: grayscale(0);
 	       -webkit-filter: saturate:(2);
 	        filter: saturate(2);
 	       }
