@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: grayscale:(1);
+      filter: grayscale(1);
+
+
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 4s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+
+	      100%{
+	       -webkit-filter: saturate:(2);
+	        filter: saturate(2);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/tatoo.jpeg" alt="nyc">
+
+</body>
+</html>
