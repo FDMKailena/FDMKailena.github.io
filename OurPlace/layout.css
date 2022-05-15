@@ -25,10 +25,9 @@ body{
   text-align: left;
   display: flex;
   justify-content: left;
-  padding-top: 10px;
-  padding-bottom:10px;
   font-size: 32px;
   background-color: white;
+  margin-top: 20px;
 }
 
 
